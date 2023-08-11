@@ -7,7 +7,7 @@
 `atomic<float> box;`
 `atomic_bool flag;`
 
-c. use of busy-wait. (while) 
+- use of busy-wait. (while) 
 
 ### Asynchronous Producer-Consumer Queue Implementation
 ### 1.2 Optimizing Programs for Asynchronous Producer-Consumer Queues
