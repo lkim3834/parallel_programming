@@ -1,7 +1,7 @@
 # Part 1 : Producer-consumer Queues
 - the memory thread loads the value, and sends it to the trig thread for computation. Then, the trig thread performs the computation, and sends the value back to the memory thread.
 
-## 1.1  A synchronous producer-consumer queue (./syncQueue, CQueueSync.h) 
+### 1.1  A synchronous producer-consumer queue (./syncQueue, CQueueSync.h) 
 - implement queue in synchronous way using atomic. 
 - every enqueue must wait for the corresponding dequeue.
 `atomic<float> box;`
